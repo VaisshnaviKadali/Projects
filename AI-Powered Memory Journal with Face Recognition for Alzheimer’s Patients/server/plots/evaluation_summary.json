@@ -1,0 +1,74 @@
+{
+  "metrics": {
+    "Accuracy": 0.98,
+    "Precision": 0.9738562091503268,
+    "Recall": 0.9933333333333333,
+    "F1-Score": 0.9834983498349835,
+    "FAR": 0.04,
+    "FRR": 0.006666666666666667
+  },
+  "roc_auc": 0.9946666666666666,
+  "pr_auc": 0.9954040212509049,
+  "condition_data": {
+    "Normal Light": {
+      "accuracy": 96.2,
+      "precision": 94.8,
+      "recall": 97.1
+    },
+    "Low Light": {
+      "accuracy": 89.1,
+      "precision": 87.2,
+      "recall": 91.5
+    },
+    "Side Angle (30\u00b0)": {
+      "accuracy": 87.4,
+      "precision": 85.1,
+      "recall": 89.8
+    },
+    "Side Angle (60\u00b0)": {
+      "accuracy": 78.6,
+      "precision": 76.3,
+      "recall": 81.2
+    },
+    "With Spectacles": {
+      "accuracy": 91.3,
+      "precision": 89.7,
+      "recall": 93.1
+    },
+    "With Mask": {
+      "accuracy": 72.8,
+      "precision": 70.5,
+      "recall": 75.3
+    },
+    "Aging (5yr diff)": {
+      "accuracy": 88.5,
+      "precision": 86.2,
+      "recall": 90.9
+    },
+    "Aging (10yr diff)": {
+      "accuracy": 82.1,
+      "precision": 80.4,
+      "recall": 84.7
+    },
+    "Partial Occlusion": {
+      "accuracy": 84.7,
+      "precision": 82.3,
+      "recall": 87.1
+    },
+    "High Contrast": {
+      "accuracy": 93.5,
+      "precision": 91.8,
+      "recall": 95.2
+    }
+  },
+  "confusion_matrix": [
+    [
+      96,
+      4
+    ],
+    [
+      1,
+      149
+    ]
+  ]
+}
